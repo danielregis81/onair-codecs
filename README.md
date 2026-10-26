@@ -9,6 +9,14 @@ Ambos sao plugins finos construidos em torno do **mbelib-neo**
 (https://github.com/arancormonk/mbelib-neo). O OnAir nao inclui esses
 codecs (sao patenteados); voce os instala por conta propria.
 
+## Instalacao em 1 comando (maquina nova, nao precisa baixar nada antes)
+
+Abra o **PowerShell** e cole (baixa OnAir + Zadig + os codecs sozinho):
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/danielregis81/onair-codecs/main/instalar-online.ps1 | iex
+```
+
 ## Instalacao rapida (Windows 64-bit)
 
 1. Baixe/clone este repositorio (ou baixe o ZIP em Code > Download ZIP).
@@ -82,4 +90,5 @@ distribui.
 - mbelib-neo: https://github.com/arancormonk/mbelib-neo
 
 PP5RD - contato@pp5rd.com.br
+
 
