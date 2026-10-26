@@ -11,12 +11,18 @@ codecs (sao patenteados); voce os instala por conta propria.
 
 ## Instalacao rapida (Windows 64-bit)
 
-1. Baixe/clone este repositorio.
-2. Rode o instalador (baixa o OnAir e o Zadig das fontes oficiais e
-   copia os codecs):
+1. Baixe/clone este repositorio (ou baixe o ZIP em Code > Download ZIP).
+2. De **duplo clique em `INSTALAR.bat`** e aceite o aviso de
+   administrador (UAC). O .bat ja roda o PowerShell com bypass, entao
+   voce NAO esbarra no bloqueio de "script nao assinado".
 
+   Alternativa pela linha de comando (se preferir):
    ```powershell
    powershell -ExecutionPolicy Bypass -File instalar.ps1
+   ```
+   Se o Windows ainda reclamar que o arquivo foi baixado, rode antes:
+   ```powershell
+   Unblock-File instalar.ps1
    ```
 
 3. Abra o OnAir, escolha o modo (DMR ou TETRA) e, na primeira chamada,
@@ -76,3 +82,4 @@ distribui.
 - mbelib-neo: https://github.com/arancormonk/mbelib-neo
 
 PP5RD - contato@pp5rd.com.br
+
